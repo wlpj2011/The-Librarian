@@ -1,0 +1,47 @@
+{
+    "recipes": [
+        {
+            "id": "legacylibrarianwork",
+            "actionid": "work",
+            "label": "Visit the Library",
+            "requirements": {
+                "legacylibrarianjob": 1
+            },
+            "effects": {
+                "funds": 5,
+                "legacylibrarianjob": -1,
+                "health": 1
+            },
+            "alt": [
+                {
+                    "id": "legacylibrarianopenstudy",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "startdescription":"After #PREVIOUSCHARACTERNAME# died, I was called in to the library to ensure things were in order.",
+            "description":"It didn't take long to put things in their proper places. I have been given a small sum of money for my troubles.",
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "legacylibrarianopenstudy",
+            "actionid": "study",
+            "label": "A gift from the estate of #PREVIOUSCHARACTERNAME#",
+            "startdescription":"On the way out, one of #PREVIOUSCHARACTERNAME#'s estate managers offered to let me take a few volumes from the library. Whatever I desire.",
+            "description":"I haven't had a chance to read them yet, but these looked interesting. I also took the liberty of writing down directions to the an auction house my patron utilized.",
+            "effects":{
+                "legacylibrariannotes": 1,
+                "mapbookdealer": 1
+            },
+            "alt": [
+                {
+                    "id": "needs",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "warmup": 10
+        }
+    ]
+}

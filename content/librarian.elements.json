@@ -1,0 +1,28 @@
+{
+    "elements": [
+        {
+            "id": "legacylibrarianjob",
+            "description": "I visit #PREVIOUSCHARACTERNAME#'s library for the last time.",
+            "label": "A Job as a Librarian for a Wealthy Patron",
+            "aspects": {
+                "job": 1
+            }
+        },
+        {
+            "id": "legacylibrariannotes",
+            "description": "A small collection of books and notes taken from #PREVIOUSCHARACTERNAME#'s library/",
+            "label": "A Collection of Books and Important Notes",
+            "aspects": {
+                "legacyplotitem": 1
+            }
+        },
+        {
+            "id": "bookbinderjob",
+            "description": "I have learnt the basics of how to repair books. Now I can apply my skills.",
+            "label": "Bookbinder Test Label",
+            "aspects": {
+                "job": 1
+            }
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "legacies": [
+        {
+            "id": "librarian.legacy",
+            "image": "librarian.legacy",
+            "label": "The Librarian",
+            "description": "I manage the library of a wealthy patron. Perhaps I ought to read some more of what I oversee.",
+            "startdescription": "My patron has passed away in the night and my position is no longer necessary. I should go in to work one last day.",
+            "startingVerbId": "work",
+            "availableWithoutEndingMatch": "true",
+            "newstart": true,
+            "effects": {
+                "legacylibrarianjob": 1,
+                "reason": 1
+            },
+            "statusbearelements": [
+                "health",
+                "passion",
+                "reason",
+                "funds"
+            ]
+        }
+    ]
+}
