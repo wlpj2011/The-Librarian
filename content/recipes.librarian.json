@@ -19,9 +19,10 @@
                     "additional": true
                 }
             ],
-            "startdescription":"After #PREVIOUSCHARACTERNAME# died, I was called in to the library to ensure things were in order.",
+            "startdescription":"After #PREVIOUSCHARACTERNAME# died, I was called in to the library to ensure that things were in order.",
             "description":"It didn't take long to put things in their proper places. I have been given a small sum of money for my troubles.",
             "warmup": 10,
+            "maxexecutions": 1,
             "craftable": true
         },
         {
@@ -41,6 +42,7 @@
                     "additional": true
                 }
             ],
+            "maxexecutions": 1,
             "warmup": 10
         }
     ]
