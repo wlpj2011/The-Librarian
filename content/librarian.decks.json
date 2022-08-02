@@ -1,0 +1,22 @@
+{
+    "decks": [
+        {
+            "id": "librarianintrolanguagebookdeck",
+            "label": "Language Books That Librarian Can Start With",
+            "spec": [
+                "textbooklatin",
+                "textbookgreek",
+                "textbooksanskrit"
+            ]
+        },
+        {
+            "id": "librarianintrolorebookdeck",
+            "label": "Lore Books That Librarian Can Start With",
+            "spec": [
+                "apolloandmarsyas",
+                "burningofunburntgod",
+                "dehoris1latin"
+            ]
+        }
+    ]
+}

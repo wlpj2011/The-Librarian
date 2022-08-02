@@ -23,6 +23,14 @@
             "aspects": {
                 "job": 1
             }
+        },
+        {
+            "id": "contactpatronintro",
+            "description": "Note on someone who could be my new patron",
+            "label": "Find a potential patron",
+            "aspects": {
+                "legacyplotitem": 1
+            }
         }
     ]
 }
