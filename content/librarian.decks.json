@@ -2,7 +2,7 @@
     "decks": [
         {
             "id": "librarianintrolanguagebookdeck",
-            "label": "Language Books That Librarian Can Start With",
+            "label": "Language Primers",
             "spec": [
                 "textbooklatin",
                 "textbookgreek",
@@ -11,7 +11,7 @@
         },
         {
             "id": "librarianintrolorebookdeck",
-            "label": "Lore Books That Librarian Can Start With",
+            "label": "Books of a More Esoteric Sort",
             "spec": [
                 "apolloandmarsyas",
                 "burningofunburntgod",

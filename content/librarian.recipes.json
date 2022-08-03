@@ -106,7 +106,7 @@
             "id": "studymapauctionhouse",
             "label": "Find Oriflamme's",
             "actionid": "study",
-            "startdescription": "The directions to Oriflamme's auction house are cryptic. When one deals in the kind of books my employer studied, one must be circumspect.",
+            "startdescription": "The directions to Oriflamme's are cryptic. When one deals in the kind of books my employer studied, one must be circumspect.",
             "description": "An ill-lit street at an ill-favoured bend in a lesser river. A soft yellow light through a grimy window. Need to write the rest of this.",
             "requirements": {
                 "mapauctionhouse": 1
