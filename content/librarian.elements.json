@@ -26,8 +26,16 @@
         },
         {
             "id": "contactpatronintro",
-            "description": "Note on someone who could be my new patron",
+            "description": "Notes on someone who could be my new patron",
             "label": "Find a potential patron",
+            "aspects": {
+                "legacyplotitem": 1
+            }
+        },
+        {
+            "id": "mapauctionhouse",
+            "description": "Cryptic directions to the obscure address of a certain Oriflamme, owner of an auction house for rare goods.",
+            "label": "Directions to Oriflamme's",
             "aspects": {
                 "legacyplotitem": 1
             }

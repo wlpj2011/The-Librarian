@@ -30,10 +30,10 @@
             "actionid": "study",
             "label": "A gift from the estate of #PREVIOUSCHARACTERNAME#",
             "startdescription":"On the way out, one of #PREVIOUSCHARACTERNAME#'s estate managers offered to let me take a few volumes from the library. Whatever I desire.",
-            "description":"I haven't had a chance to read them yet, but these looked interesting. I also took the liberty of writing down directions to the an auction house my patron utilized.",
+            "description":"I haven't had a chance to read them yet, but these looked interesting. I also took the liberty of writing down directions to an auction house my patron had utilized.",
             "effects":{
                 "legacylibrariannotes": 1,
-                "mapbookdealer": 1
+                "mapauctionhouse": 1
             },
             "alt": [
                 {
@@ -50,7 +50,7 @@
             "actionid": "study",
             "label": "#PREVIOUSCHARACTERNAME# had some valuable tomes in his library.",
             "startdescription": "What books caught my fancy on the way out?",
-            "description": "One of the books had a note on someone who could become a new patron.",
+            "description": "One of the books contained a note on someone who could become a new patron.",
             "requirements": {
                 "legacylibrariannotes": 1
             },
@@ -69,8 +69,9 @@
         {
             "id": "studycontactpatronintro",
             "actionid": "study",
+            "label": "Find a Collaborator",
             "startdescription": "I have a name, a description, a few tantalising details... but there are many who enjoy this type of library in the city.",
-            "description": "Test",
+            "description": "Perhaps this contact will be willing to assist me.",
             "requirements": {
                 "contactpatronintro": 1
             },
@@ -100,6 +101,29 @@
                 "scholarpatrons": 1
             },
             "maxexecutions": 1
+        },
+        {
+            "id": "studymapauctionhouse",
+            "label": "Find Oriflamme's",
+            "actionid": "study",
+            "startdescription": "The directions to Oriflamme's auction house are cryptic. When one deals in the kind of books my employer studied, one must be circumspect.",
+            "description": "An ill-lit street at an ill-favoured bend in a lesser river. A soft yellow light through a grimy window. Need to write the rest of this.",
+            "requirements": {
+                "mapauctionhouse": 1
+            },
+            "effects": {
+                "mapauctionhouse": -1,
+                "locationauctionhouse": 1
+            },
+            "alt": [
+                {
+                    "id": "openexplore",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "warmup": 30,
+            "craftable": true
         }
     ]
 }
