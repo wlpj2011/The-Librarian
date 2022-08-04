@@ -49,6 +49,31 @@
                 "secretmarks": 1
             },
             "uniquenessgroup": "uqdesire"
+        },
+        {
+            "id": "skillreasona",
+            "slots$append": [
+                {
+                    "id": "bookbindingreasonreq1",
+                    "label": "Reason",
+                    "required": {
+                        "reason" : 1
+                    },
+                    "consumes": false,
+                    "description": "Shall I learn how to repair my tools?",
+                    "actionid": "work"
+                },
+                {
+                    "id": "bookbindingreasonreq2",
+                    "label": "Reason",
+                    "required": {
+                        "reason" : 1
+                    },
+                    "consumes": false,
+                    "description": "Shall I learn how to repair my tools?",
+                    "actionid": "work"
+                }
+            ]
         }
     ]
 }

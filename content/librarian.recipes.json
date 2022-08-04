@@ -144,6 +144,22 @@
             },
             "warmup": 30,
             "craftable": false
+        },
+        {
+            "id": "gainbookbinderjob",
+            "label": "Learn Something of Bookbinding",
+            "actionid": "work",
+            "startdescription":"With sufficient reason, perhaps I can learn to repair the books I find.",
+            "description": "A book of high enough quality might be worth something when I am done with it.",
+            "requirements": {
+                "skillreasona": 1
+            },
+            "effects": {
+                "bookbinderjob": 1
+            },
+            "warmup": 30,
+            "craftable": true,
+            "maxexecutions": 1
         }
     ]
 }

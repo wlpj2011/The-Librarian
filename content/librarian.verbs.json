@@ -1,0 +1,10 @@
+{
+    "verbs": [
+        {
+            "id" : "work",
+            "slot$dictedit": {
+                "forbidden": {}
+            }
+        }
+    ]
+}
