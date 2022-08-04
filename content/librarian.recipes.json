@@ -62,6 +62,13 @@
                 "librarianintrolanguagebookdeck": 1,
                 "librarianintrolorebookdeck": 2
             },
+            "alt": [
+                {
+                    "id": "librarianopendream",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
             "maxexecutions": 1,
             "warmup": 30,
             "craftable": true
@@ -124,6 +131,19 @@
             ],
             "warmup": 30,
             "craftable": true
+        },
+        {
+            "id": "librarianopendream",
+            "label": "Recall my Dreams",
+            "actionid": "dream",
+            "startdescription": "As I sleep, I dream of the books I found and the secrets they contain.",
+            "description": "This is the first time I have had these dreams, but I can tell it will not be the last.",
+            "effects": {
+                "ascensionsecretsa": 1,
+                "restlessness": 1
+            },
+            "warmup": 30,
+            "craftable": false
         }
     ]
 }

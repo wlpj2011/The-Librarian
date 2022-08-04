@@ -39,6 +39,16 @@
             "aspects": {
                 "legacyplotitem": 1
             }
+        },
+        {
+            "id": "ascensionsecretsa",
+            "description":"",
+            "label": "Temptation: Secrets",
+            "aspects": {
+                "desire": 1,
+                "secretmarks": 1
+            },
+            "uniquenessgroup": "uqdesire"
         }
     ]
 }
