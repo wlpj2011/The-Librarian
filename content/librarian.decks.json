@@ -6,16 +6,32 @@
             "spec": [
                 "textbooklatin",
                 "textbookgreek",
-                "textbooksanskrit"
+                "textbooksanskrit",
+                "textbookaramaic"
             ]
         },
         {
             "id": "librarianintrolorebookdeck",
             "label": "Books of a More Esoteric Sort",
             "spec": [
-                "apolloandmarsyas",
+                "dehoris1latin",
+                "travellingatnight1",
+                "sixlettersonnecessity",
+                "locksmithsdream1",
+                "humoursofagentleman",
+                "introductiontohistories",
+                "onthewhite",
+                "waroftheroadscensored",
+                "queensoftherivers",
+                "skeletonsongs",
                 "burningofunburntgod",
-                "dehoris1latin"
+                "onwhatiscontainedbysilvergreek",
+                "orchidtransfigurations1latin",
+                "victoryofcrowns",
+                "apolloandmarsyas",
+                "kitlingripe",
+                "raptintheking",
+                "vienneseconundra"
             ]
         }
     ]
