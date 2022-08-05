@@ -17,12 +17,58 @@
             }
         },
         {
-            "id": "bookbinderjob",
+            "id": "bookbinderjoba",
             "description": "I have learnt the basics of how to repair books. Now I can apply my skills.",
-            "label": "Bookbinder Test Label",
+            "label": "Bookbinder A Test Label",
             "aspects": {
-                "job": 1
-            }
+                "job": 1,
+                "bookbinder": 1
+            },
+            "slots": [
+                {
+                    "id": "scholarshiporwork",
+                    "label": "Works or Scholarship",
+                    "requirements": {
+                        "reasonskill": 1
+                    }
+                }
+            ]
+        },
+        {
+            "id": "bookbinderjobb",
+            "description": "I have learnt more of how to repair books. Now I can apply my skills.",
+            "label": "Bookbinder B Test Label",
+            "aspects": {
+                "job": 1,
+                "bookbinder": 2
+            },
+            "slots": [
+                {
+                    "id": "scholarshiporwork",
+                    "label": "Works or Scholarship",
+                    "requirements": {
+                        "reasonskill": 1
+                    }
+                }
+            ]
+        },
+        {
+            "id": "bookbinderjobc",
+            "description": "I have learnt all I can of how to repair books. Now I can apply my skills.",
+            "label": "Bookbinder C Test Label",
+            "aspects": {
+                "job": 1,
+                "bookbinder": 3
+            },
+            "slots": [
+                {
+                    "id": "scholarshiporwork",
+                    "label": "Works or Scholarship",
+                    "requirements": {
+                        "reasonskill": 1
+                    }
+                }
+            ]
         },
         {
             "id": "contactpatronintro",
@@ -49,31 +95,6 @@
                 "secretmarks": 1
             },
             "uniquenessgroup": "uqdesire"
-        },
-        {
-            "id": "skillreasona",
-            "slots$append": [
-                {
-                    "id": "bookbindingreasonreq1",
-                    "label": "Reason",
-                    "required": {
-                        "reason" : 1
-                    },
-                    "consumes": false,
-                    "description": "Shall I learn how to repair my tools?",
-                    "actionid": "work"
-                },
-                {
-                    "id": "bookbindingreasonreq2",
-                    "label": "Reason",
-                    "required": {
-                        "reason" : 1
-                    },
-                    "consumes": false,
-                    "description": "Shall I learn how to repair my tools?",
-                    "actionid": "work"
-                }
-            ]
         }
     ]
 }

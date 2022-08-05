@@ -146,20 +146,104 @@
             "craftable": false
         },
         {
-            "id": "gainbookbinderjob",
+            "id": "gainbookbinderjoba1",
             "label": "Learn Something of Bookbinding",
             "actionid": "work",
-            "startdescription":"With sufficient reason, perhaps I can learn to repair the books I find.",
+            "startdescription":"With a bit of scholarship, I can learn how to repair the vessels of knowledge.",
             "description": "A book of high enough quality might be worth something when I am done with it.",
             "requirements": {
-                "skillreasona": 1
+                "reasonskill": 1
+            },
+            "extantreqs": {
+                "bookbinder" : -1
+            },
+            "linked": [
+                {
+                    "id": "gainbookbinderjoba2",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30,
+            "craftable": true
+        },
+        {
+            "id": "gainbookbinderjoba2",
+            "label": "Learn Something of Bookbinding",
+            "actionid": "work",
+            "description": "A book of high enough quality might be worth something when I am done with it.",
+            "slots": [
+                {
+                    "id": "Reason",
+                    "label": "Reason",
+                    "required": {
+                        "reason": 1
+                    },
+                    "description": "With sufficient reason, perhaps I can learn to repair the books I find."
+                }
+            ],
+            "effects": {
+                "bookbinderjoba": 1
+            },
+            "alt": [
+                {
+                    "id": "gainbookbinderjobafail",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30,
+            "craftable": false
+        },
+        {
+            "id": "gainbookbinderjobafail",
+            "label": "I have learned nothing",
+            "actionid": "work",
+            "description": "I do not have sufficient Reason to learn this skill.",
+            "requirements": {
+                "reason": -1
             },
             "effects": {
-                "bookbinderjob": 1
+                "bookbinderjoba": -1
+            }
+        },
+        {
+            "id": "bookbinderupgradeatob",
+            "comments": "Need to add hint recipes for not enough scholarship and for cannot upgrade further.",
+            "label": "Learn More of Bookbinding",
+            "actionid": "work",
+            "description": "Perhaps with more scholarship, I can learn more of bookbinding.",
+            "requirements": {
+                "bookbinderjoba": 1,
+                "reasonskill": 2
+            },
+            "extantreqs": {
+                "bookbinder" : -2
+            },
+            "effects": {
+                "bookbinderjoba": -1,
+                "bookbinderjobb": 1
             },
             "warmup": 30,
-            "craftable": true,
-            "maxexecutions": 1
+            "craftable": true
+        },
+        {
+            "id": "bookbinderupgradebtoc",
+            "comments": "Need to add hint recipes for not enough scholarship and for cannot upgrade further.",
+            "label": "Learn More of Bookbinding",
+            "actionid": "work",
+            "description": "Perhaps with more scholarship, I can learn more of bookbinding.",
+            "requirements": {
+                "bookbinderjobb": 1,
+                "reasonskill": 3
+            },
+            "extantreqs": {
+                "bookbinder" : -3
+            },
+            "effects": {
+                "bookbinderjobb": -1,
+                "bookbinderjobc": 1
+            },
+            "warmup": 30,
+            "craftable": true
         }
     ]
 }

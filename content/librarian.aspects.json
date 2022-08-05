@@ -4,6 +4,11 @@
             "id": "secretmarks",
             "label": "The Marks of Secrets",
             "description": "I may seek immortality and power in the Hour called the Velvet. Her touch brings particular appetites, and Marks."
+        },
+        {
+            "id": "bookbinder",
+            "label": "Bookbinder",
+            "description": "I have learned a bit of bookbinding"
         }
     ]
 }
