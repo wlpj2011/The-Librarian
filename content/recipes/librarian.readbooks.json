@@ -1,0 +1,16 @@
+{
+    "recipes": [
+        {
+            "id": "studydehoris1",
+            "effects$add": {
+                "dehoris1used": 1
+            }
+        },
+        {
+            "id": "studydehoris2",
+            "effects$add": {
+                "dehoris2used": 1
+            }
+        }
+    ]
+}

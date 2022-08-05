@@ -1,0 +1,38 @@
+{
+    "recipes": [
+        {
+            "id": "repairdehoris1",
+            "actionid": "work",
+            "label": "Repair De Horis Book 1",
+            "startdescription": "This book has been damaged by age and use, but it is within my skill to restore it.",
+            "description": "Now the book is worthy of being put in a collectors library, if only I could find a buyer.",
+            "requirements": {
+                "bookbinder": 1,
+                "dehoris1used": 1
+            },
+            "effects": {
+                "dehoris1used": -1,
+                "dehoris1repaired": 1
+            },
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "repairdehoris2",
+            "actionid": "work",
+            "label": "Repair De Horis Book 2",
+            "startdescription": "This book has been damaged by age and use, but it is within my skill to restore it.",
+            "description": "Now the book is worthy of being put in a collectors library, if only I could find a buyer.",
+            "requirements": {
+                "bookbinder": 1,
+                "dehoris2used": 1
+            },
+            "effects": {
+                "dehoris2used": -1,
+                "dehoris2repaired": 1
+            },
+            "warmup": 60,
+            "craftable": true
+        }
+    ]
+}

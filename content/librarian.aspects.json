@@ -8,7 +8,12 @@
         {
             "id": "bookbinder",
             "label": "Bookbinder",
-            "description": "I have learned a bit of bookbinding"
+            "description": "I have learned a bit of bookbinding."
+        },
+        {
+            "id": "damagedtext",
+            "label": "Damaged",
+            "description": "This book has seen some wear."
         }
     ]
 }

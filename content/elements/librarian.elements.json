@@ -29,7 +29,8 @@
                     "id": "scholarshiporwork",
                     "label": "Works or Scholarship",
                     "requirements": {
-                        "reasonskill": 1
+                        "reasonskill": 1,
+                        "damagedtext": 1
                     }
                 }
             ]
@@ -47,7 +48,8 @@
                     "id": "scholarshiporwork",
                     "label": "Works or Scholarship",
                     "requirements": {
-                        "reasonskill": 1
+                        "reasonskill": 1,
+                        "damagedtext": 1
                     }
                 }
             ]
@@ -65,7 +67,8 @@
                     "id": "scholarshiporwork",
                     "label": "Works or Scholarship",
                     "requirements": {
-                        "reasonskill": 1
+                        "reasonskill": 1,
+                        "damagedtext": 1
                     }
                 }
             ]

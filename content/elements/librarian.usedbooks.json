@@ -1,0 +1,22 @@
+{
+    "elements": [
+        {
+            "id": "dehoris1used",
+            "unique": true,
+            "label": "De Horis (Book 1)",
+            "aspects": {
+                "damagedtext": 1
+            },
+            "description": "An occasionally coherent catalogue of the secret gods. This is an English translation of a volume dealing with the powers of the Wood."
+        },
+        {
+            "id": "dehoris2used",
+            "unique": true,
+            "label": "De Horis (Book 2)",
+            "aspects": {
+                "damagedtext": 1
+            },
+            "description": "An occasionally coherent catalogue of the secret gods. This is an English translation of a volume describing the enmity between the Lionsmith and the Tribune of Scars."
+        }
+    ]
+}
